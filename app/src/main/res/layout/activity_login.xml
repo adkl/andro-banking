@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/niceBlueBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:inputType="text|textPassword"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textColorHint="#D0D0D0"
+            android:hint="Korisničko ime"
+            android:backgroundTint="#FFFFFF"
+            android:id="@+id/usernameEditText"/>
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textColorHint="#D0D0D0"
+            android:backgroundTint="#FFFFFF"
+            android:hint="Šifra"
+            android:id="@+id/passwordEditText"/>
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="PIN"
+            android:maxLength="4"
+            android:textSize="20sp"
+            android:textColorHint="#D0D0D0"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FFFFFF"
+            android:inputType="numberPassword"
+            android:id="@+id/pinEditText"/>
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="Prijavi se"
+            android:textColor="#FFFFFF"
+            android:id="@+id/loginButton"
+            android:background="@drawable/roundbuttontransparent"
+            android:fontFamily="sans-serif"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

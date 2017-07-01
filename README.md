@@ -6,3 +6,5 @@ Services available:
 * View Account balance
 * Cash transaction
 * Safe for storing private informations
+
+All resources referenced in the .docx file are located under "/demo-resources" subdirectory.
